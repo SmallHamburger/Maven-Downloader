@@ -8,9 +8,9 @@ python2.7, mvn命令
 
 > 使用方式:
 
-例: python MavenDownloader.py <group:name:version [group:name:version\] ...>
+例: python MavenDownloader.py \[--repo=repoName:repoUrl\[,repoName:repoUrl\] ...\] <group:name:version [group:name:version\] ...>
 
 
 ```shell
-python MavenDownloader.py org.json:json:20180130 com.google.code.gson:gson:2.8.5
+python MavenDownloader.py org.json:json:20180130 com.google.code.gson:gson:2.8.5 --repo=aliyun:http://maven.aliyun.com/nexus/content/groups/public
 ```
