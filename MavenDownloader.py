@@ -1,7 +1,7 @@
 #! /bin/python
 # -*-coding:utf-8 -*-
 
-__author__ = 'Jeson <jisong.zhang@live.cn>'
+__author__ = 'Jeson <zhangjisong@live.cn>'
 
 import commands
 import os
